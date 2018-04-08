@@ -1,0 +1,47 @@
+[2018-04-08 15:46:20 *23824.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class App\HttpController\Pool\Pool, because the name is already in use in /home/wwwroot/wxxcx/App/HttpController/Pool.php on line 65.
+[2018-04-08 15:46:20 $23805.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-08 15:46:42 *23876.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Exception:  query: select sleep(1) in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(266): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/App/HttpController/Pool.php(32): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->rawQuery('select sleep(1)')
+#2 {main}
+  t
+[2018-04-08 15:46:42 $23858.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-08 15:47:27 *23928.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Exception:  query: select sleep(1) in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(266): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/App/HttpController/Pool.php(32): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->rawQuery('select sleep(1)')
+#2 {main}
+  t
+[2018-04-08 15:47:27 $23910.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-08 15:48:22 *23979.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Exception:  query: SELECT  * FROM goods WHERE  id = ?  in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(301): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(138): EasySwoole\Core\Swoole\
+[2018-04-08 15:48:22 $23961.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-08 15:53:00 *24176.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Exception:  query: select sleep(1) in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(266): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/App/HttpController/Pool.php(32): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->rawQuery('select sleep(1)')
+#2 {main}
+  t
+[2018-04-08 15:53:00 $24158.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-08 15:54:18 *24285.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Exception:  query: show tables in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(266): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/App/HttpController/Pool.php(32): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->rawQuery('show tables')
+#2 {main}
+  thrown in
+[2018-04-08 15:54:18 $24267.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-08 15:56:20 *24368.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Exception:  query: show tables in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(266): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/App/HttpController/Pool.php(32): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->rawQuery('show tables')
+#2 {main}
+  thrown in
+[2018-04-08 15:56:20 $24350.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-08 15:57:14 *24450.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Exception: Table 'hotel.goods' doesn't exist query: SELECT  * FROM goods WHERE  id = ?  in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(301): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.
+[2018-04-08 15:57:14 $24432.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0

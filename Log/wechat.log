@@ -1,0 +1,128 @@
+[2018-04-08 15:28:20] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=8_pZXc3ei95gwxTDh4YWrqGsWc2-SXaUQuIlMUW2YvIy51NeTjJJtyXospXdKDLcanFZfj6y5b_8vhkrKo2nUU6rT8yO9cq0uhCLuJwwG2-RPNsaxwNXlgl1PYdyUZZJjACAHHR&appid=wx76197bf1517ee14f&secret=aa8c3f22d74faeb573d27ada0c6cff3b&js_code=011rKiYa0aFhFw1WQCVa01r1Ya0rKiYs&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.2 curl/7.52.1 PHP/7.2.3
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Sun, 08 Apr 2018 07:28:20 GMT
+Content-Length: 76
+
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Xr2sxa0500th24 ]"}
+--------
+NULL  
+[2018-04-08 15:29:43] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=8_pZXc3ei95gwxTDh4YWrqGsWc2-SXaUQuIlMUW2YvIy51NeTjJJtyXospXdKDLcanFZfj6y5b_8vhkrKo2nUU6rT8yO9cq0uhCLuJwwG2-RPNsaxwNXlgl1PYdyUZZJjACAHHR&appid=wx76197bf1517ee14f&secret=aa8c3f22d74faeb573d27ada0c6cff3b&js_code=071fNLEu0Vp8Hc11STIu0uKSEu0fNLEs&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.2 curl/7.52.1 PHP/7.2.3
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Sun, 08 Apr 2018 07:29:43 GMT
+Content-Length: 72
+
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: O.0583th50 ]"}
+--------
+NULL  
+[2018-04-08 15:30:07] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=8_pZXc3ei95gwxTDh4YWrqGsWc2-SXaUQuIlMUW2YvIy51NeTjJJtyXospXdKDLcanFZfj6y5b_8vhkrKo2nUU6rT8yO9cq0uhCLuJwwG2-RPNsaxwNXlgl1PYdyUZZJjACAHHR&appid=wx76197bf1517ee14f&secret=aa8c3f22d74faeb573d27ada0c6cff3b&js_code=071zYgFo1Lv3Gp0mQcHo1FLeFo1zYgFr&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.2 curl/7.52.1 PHP/7.2.3
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Sun, 08 Apr 2018 07:30:07 GMT
+Content-Length: 76
+
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: Rb97_a0607th44 ]"}
+--------
+NULL  
+[2018-04-08 15:32:36] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=8_pZXc3ei95gwxTDh4YWrqGsWc2-SXaUQuIlMUW2YvIy51NeTjJJtyXospXdKDLcanFZfj6y5b_8vhkrKo2nUU6rT8yO9cq0uhCLuJwwG2-RPNsaxwNXlgl1PYdyUZZJjACAHHR&appid=wx76197bf1517ee14f&secret=aa8c3f22d74faeb573d27ada0c6cff3b&js_code=071CXBaZ0Y8rd22XYMaZ07hCaZ0CXBaX&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.2 curl/7.52.1 PHP/7.2.3
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Sun, 08 Apr 2018 07:32:36 GMT
+Content-Length: 76
+
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: XjSZMA0756th20 ]"}
+--------
+NULL  
+[2018-04-08 15:32:46] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=8_pZXc3ei95gwxTDh4YWrqGsWc2-SXaUQuIlMUW2YvIy51NeTjJJtyXospXdKDLcanFZfj6y5b_8vhkrKo2nUU6rT8yO9cq0uhCLuJwwG2-RPNsaxwNXlgl1PYdyUZZJjACAHHR&appid=wx76197bf1517ee14f&secret=aa8c3f22d74faeb573d27ada0c6cff3b&js_code=001R12JE0Qxfud2o91GE0L9kJE0R12JQ&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.2 curl/7.52.1 PHP/7.2.3
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Sun, 08 Apr 2018 07:32:46 GMT
+Content-Length: 76
+
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: N3d0qA0766th50 ]"}
+--------
+NULL  
+[2018-04-08 15:32:54] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=8_MBp_KyYC6cXGRpsyoiG7izusud6v6lZ8TJtFC2-ZBpvYgt2SyKoJF3zrE2iGyQc1HCQkGuUqoksBCNqbAn3CsBbf1lFqS16IXLhcV67xJTU7oPKBdqUYXXaEpfjteE1h3_IwBUApIL0z1EEOIPTgAGAXEI&appid=wxb94309257c83ecb3&secret=d69e2e790026812edf6a6fbed4d22097&js_code=0211Ssw30tdqZD1YDFx30HCuw301SswZ&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.2 curl/7.52.1 PHP/7.2.3
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Sun, 08 Apr 2018 07:32:54 GMT
+Content-Length: 82
+
+{"session_key":"z0qHDnLUEnY8Z08E8YZqdQ==","openid":"otG5r5QBtYRDa0v7qeKP4yd-b0uk"}
+--------
+NULL  
+[2018-04-08 15:37:49] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=8_MBp_KyYC6cXGRpsyoiG7izusud6v6lZ8TJtFC2-ZBpvYgt2SyKoJF3zrE2iGyQc1HCQkGuUqoksBCNqbAn3CsBbf1lFqS16IXLhcV67xJTU7oPKBdqUYXXaEpfjteE1h3_IwBUApIL0z1EEOIPTgAGAXEI&appid=wxb94309257c83ecb3&secret=d69e2e790026812edf6a6fbed4d22097&js_code=011gNCH827MxpQ0BT9I82Z9DH82gNCHI&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.2 curl/7.52.1 PHP/7.2.3
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Sun, 08 Apr 2018 07:37:49 GMT
+Content-Length: 82
+
+{"session_key":"OMO3GmhPoPW+QeMZ39oKiw==","openid":"otG5r5QBtYRDa0v7qeKP4yd-b0uk"}
+--------
+NULL  
+[2018-04-08 15:40:43] NULL.INFO: >>>>>>>>
+GET /sns/jscode2session?access_token=8_MBp_KyYC6cXGRpsyoiG7izusud6v6lZ8TJtFC2-ZBpvYgt2SyKoJF3zrE2iGyQc1HCQkGuUqoksBCNqbAn3CsBbf1lFqS16IXLhcV67xJTU7oPKBdqUYXXaEpfjteE1h3_IwBUApIL0z1EEOIPTgAGAXEI&appid=wxb94309257c83ecb3&secret=d69e2e790026812edf6a6fbed4d22097&js_code=081qx0932xZRoY0La8a323aL832qx09z&grant_type=authorization_code HTTP/1.1
+Host: api.weixin.qq.com
+User-Agent: GuzzleHttp/6.3.2 curl/7.52.1 PHP/7.2.3
+
+
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/plain
+Date: Sun, 08 Apr 2018 07:40:43 GMT
+Content-Length: 82
+
+{"session_key":"TatrceH3JLOwxQrkD9e5dQ==","openid":"otG5r5QBtYRDa0v7qeKP4yd-b0uk"}
+--------
+NULL  

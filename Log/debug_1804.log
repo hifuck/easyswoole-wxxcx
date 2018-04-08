@@ -1,0 +1,46 @@
+18-04-08 15:36:14:Error at file[/home/wwwroot/wxxcx/App/HttpController/Wechat.php] line[106] message:[Undefined offset: 1]
+18-04-08 15:46:20:Error at file[/home/wwwroot/wxxcx/App/HttpController/Pool.php] line[65] message:[Cannot declare class App\HttpController\Pool\Pool, because the name is already in use]
+18-04-08 15:46:42:Error at file[/home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php] line[680] message:[Uncaught Exception:  query: select sleep(1) in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(266): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/App/HttpController/Pool.php(32): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->rawQuery('select sleep(1)')
+#2 {main}
+  thrown]
+18-04-08 15:47:27:Error at file[/home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php] line[680] message:[Uncaught Exception:  query: select sleep(1) in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(266): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/App/HttpController/Pool.php(32): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->rawQuery('select sleep(1)')
+#2 {main}
+  thrown]
+18-04-08 15:48:22:Error at file[/home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php] line[680] message:[Uncaught Exception:  query: SELECT  * FROM goods WHERE  id = ?  in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(301): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(138): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_buildQuery(NULL)
+#2 /home/wwwroot/wxxcx/App/HttpController/Pool.php(42): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->get('goods')
+#3 {main}
+  thrown]
+18-04-08 15:53:00:Error at file[/home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php] line[680] message:[Uncaught Exception:  query: select sleep(1) in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(266): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/App/HttpController/Pool.php(32): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->rawQuery('select sleep(1)')
+#2 {main}
+  thrown]
+18-04-08 15:54:18:Error at file[/home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php] line[680] message:[Uncaught Exception:  query: show tables in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(266): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/App/HttpController/Pool.php(32): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->rawQuery('show tables')
+#2 {main}
+  thrown]
+18-04-08 15:56:20:Error at file[/home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php] line[680] message:[Uncaught Exception:  query: show tables in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(266): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/App/HttpController/Pool.php(32): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->rawQuery('show tables')
+#2 {main}
+  thrown]
+18-04-08 15:57:14:Error at file[/home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php] line[680] message:[Uncaught Exception: Table 'hotel.goods' doesn't exist query: SELECT  * FROM goods WHERE  id = ?  in /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php:680
+Stack trace:
+#0 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(301): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_prepareQuery()
+#1 /home/wwwroot/wxxcx/vendor/easyswoole/easyswoole/src/Core/Swoole/Coroutine/Client/Mysql.php(138): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->_buildQuery(NULL)
+#2 /home/wwwroot/wxxcx/App/HttpController/Pool.php(42): EasySwoole\Core\Swoole\Coroutine\Client\Mysql->get('goods')
+#3 {main}
+  thrown]
