@@ -39,8 +39,8 @@ class Wechat extends Base
      */
     protected function getMiniProgramConfig(){
         return [
-            'app_id' => 'wxb94309257c83ecb3',
-            'secret' => 'd69e2e790026812edf6a6fbed4d22097',
+            'app_id' => 'YOUR APPID',
+            'secret' => 'YOUR SECRET',
             'response_type' => 'array',
             'log' => [
                 'level' => 'debug',
